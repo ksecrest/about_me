@@ -1,0 +1,50 @@
+/* common nav styles */
+
+.nav-wrapper {
+    height: 60px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px; 
+}
+
+
+.nav-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+.nav-wrapper > .right-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ .nav-wrapper > .right-column > .links-wrapper {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 10px;
+     margin-right: 10px;
+
+ }
+
+ .nav-wrapper > .right-column > .links-wrapper > .nav-link {
+     margin-right: 10px; 
+}
+ .nav-wrapper > .right-column > .links-wrapper > .nav-link a {
+     font-size: 2em;
+ }
+
+ .links-wrapper > .nav-link a {
+     color: #cbcbcb;
+     text-decoration: none;
+     transition: 1s;
+ }
+
+ .links-wrapper > .nav-link a:hover {
+    color: #cea135;
+   
+}
